@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "description": "",
+  "name": "lib-npm01",
+  "main": "index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "prepare": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoangtoeic/lib-npm01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoangtoeic/lib-npm01/issues"
+  },
+  "homepage": "https://github.com/hoangtoeic/lib-npm01#readme",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
+}
